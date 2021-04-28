@@ -56,5 +56,6 @@ jobs:
           cd /home/hanwei/Gridsome_Blog
           wget https://github.com/hanwei808/Gridsome_blog/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
-          npm install
-          npm run build
+          npm install pngquant --unsafe-perm
+          npm install --unsafe-perm
+          npm run build --unsafe-perm
